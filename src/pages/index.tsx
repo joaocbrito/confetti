@@ -32,7 +32,7 @@ export default function Home() {
       <ReactConfetti
         width={windowDimension.width}
         height={windowDimension.height}
-        tweenDuration={1000}
+        numberOfPieces={400}
         recycle={false}
       />
 
